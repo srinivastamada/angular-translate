@@ -1,1 +1,15 @@
-<p translate>home.welcome</p>
+<p translate>home.welcome_text</p>
+<div>
+    <button (click)="changeLanguage('en')">English</button>
+    <button (click)="changeLanguage('fr')">French</button>
+    <button (click)="changeLanguage('es')">Spanish</button>
+    <button (click)="changeLanguage('te')">Telugu</button>
+    <button (click)="changeLanguage('ta')">Tamil</button>
+</div>
+<span [innerHTML]="'home.sum_text' | translate: { value1: a, value2: b }"></span> {{a+b}} 
+
+
+
+<div>
+    <button (click)="changeA()">Value 1 +</button> <button (click)="changeB()">Value 2 +</button>
+</div>

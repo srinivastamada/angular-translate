@@ -1,1 +1,6 @@
-{}
+{
+    "home": {
+      "welcome_text": "Haz que la gente se enamore de tus ideas.",
+      "sum_text": "La suma de {{value1}} + {{value2}} = "
+    }
+  }

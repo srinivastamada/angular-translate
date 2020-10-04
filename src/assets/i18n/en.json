@@ -1,5 +1,6 @@
 {
   "home": {
-    "welcome": "Welcome"
+    "welcome_text": "Make people fall in love with your ideas.",
+    "sum_text": "The sum of {{value1}} + {{value2}} = "
   }
 }
