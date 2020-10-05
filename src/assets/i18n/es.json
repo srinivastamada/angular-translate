@@ -1,6 +1,7 @@
 {
     "home": {
       "welcome_text": "Haz que la gente se enamore de tus ideas.",
-      "sum_text": "La suma de {{value1}} + {{value2}} = "
+      "sum_text": "Cuando el valor {{value1}} sumado al valor {{value2}} = ",
+      "button": "valor"
     }
   }
