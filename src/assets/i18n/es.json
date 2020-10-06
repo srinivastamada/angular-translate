@@ -2,6 +2,10 @@
     "home": {
       "welcome_text": "Haz que la gente se enamore de tus ideas.",
       "sum_text": "Cuando el valor {{value1}} sumado al valor {{value2}} = ",
-      "button": "valor"
+      "button": "valor",
+      "choose_language": "Elige lengua"
+    },
+    "settings": {
+      "title": "Página de configuración"
     }
   }

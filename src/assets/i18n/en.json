@@ -1,6 +1,11 @@
 {
   "home": {
     "welcome_text": "Make people fall in love with your ideas.",
-    "sum_text": "When the value {{value1}} added to value {{value2}} = "
+    "sum_text": "When the value {{value1}} added to value {{value2}} = ",
+    "value": "Value",
+    "choose_language": "Choose language"
+  },
+  "settings": {
+    "title": "Settings page"
   }
 }

@@ -10,4 +10,6 @@ export class SettingsComponent implements OnInit {
   constructor(private translate: TranslateConfigService) {}
 
   ngOnInit(): void {}
+
+  
 }

@@ -1,4 +1,4 @@
-<p translate>home.welcome_text</p>
+<h4 translate>home.choose_language</h4>
 <div>
     <button (click)="changeLanguage('en')">English</button>
     <button (click)="changeLanguage('fr')">French</button>
@@ -6,10 +6,18 @@
     <button (click)="changeLanguage('te')">Telugu</button>
     <button (click)="changeLanguage('ta')">Tamil</button>
 </div>
-<span [innerHTML]="'home.sum_text' | translate: { value1: a, value2: b }"></span> {{a+b}} 
 
+<h2 translate>home.welcome_text</h2>
+
+<div>
+    <span [innerHTML]="'home.sum_text' | translate: { value1: a, value2: b }"></span> {{a+b}}
+</div>
 
 
 <div>
-    <button (click)="changeA()"><span translate>home.value</span> 1 +</button> <button (click)="changeB()"><span translate>home.value</span> 2 +</button>
+    <button (click)="changeA()"><span translate>home.value</span> 1 +</button> <button (click)="changeB()"><span
+            translate>home.value</span> 2 +</button>
 </div>
+<br/><br/>
+
+<a routerLink="/settings" translate>settings.title</a>
