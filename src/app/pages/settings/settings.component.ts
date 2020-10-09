@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TranslateConfigService } from '../../service/translate-config.service';
+import { TranslateConfigService } from '../../services/translate-config.service';
 
 @Component({
   selector: 'app-settings',

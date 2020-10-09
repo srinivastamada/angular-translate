@@ -9,7 +9,7 @@ export class TranslateConfigService {
     this.translateService.use('en');
   }
 
-  changeLanguage(type: string){
+  changeLanguage(type: string) {
     this.translateService.use(type);
   }
 }
