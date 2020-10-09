@@ -1,5 +1,6 @@
 {
   "home": {
+    "title": "Page d'accueil",
     "welcome_text": "Faites tomber les gens amoureux de vos idées.",
     "sum_text": "Lorsque la valeur {{value1}} ajoutée à la valeur {{value2}}",
     "button": "valeur",
