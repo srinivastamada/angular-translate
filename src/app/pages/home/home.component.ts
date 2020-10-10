@@ -18,11 +18,11 @@ export class HomeComponent implements OnInit {
   }
 
   
-  changeA(){
+  changeValue1(){
     this.a = this.a + 1;
   }
 
-  changeB(){
+  changeValue2(){
     this.b = this.b + 1;
   }
 
