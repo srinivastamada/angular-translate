@@ -5,15 +5,13 @@ import { SettingsRoutes } from './settings.routes';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-
-
 @NgModule({
   declarations: [SettingsComponent],
-  exports:[SettingsComponent],
+  exports: [SettingsComponent],
   imports: [
     CommonModule,
     RouterModule.forChild(SettingsRoutes),
-    TranslateModule
-  ]
+    TranslateModule,
+  ],
 })
-export class SettingsModule { }
+export class SettingsModule {}
